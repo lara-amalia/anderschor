@@ -50,6 +50,15 @@ a:hover {
   z-index: 3;
   line-height: 1;
 }
+.subheadline-h2 {
+  font-family: "Paytone One", sans-serif;
+  font-size: 35px;
+  color: #ddd;
+  position: absolute;
+  top: 10px;
+  z-index: 3;
+  line-height: 1;
+}
 .comingsoon {
   font-family: "Paytone One", sans-serif;
   text-align: center;
@@ -58,6 +67,10 @@ a:hover {
   text-align: center;
   color: #aaa;
   font-size: 18px;
+}
+
+.hide-sm {
+  display: none;
 }
 
 @media screen and (min-width: 620px) {
@@ -78,6 +91,17 @@ a:hover {
     font-size: 90px;
     left: 1rem;
     top: 30px;
+  }
+  .subheadline-h2 {
+    font-size: 40px;
+    top: 20px;
+  }
+
+  .hide-sm {
+    display: block;
+  }
+  .hide-lg {
+    display: none;
   }
 }
 
