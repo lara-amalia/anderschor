@@ -101,6 +101,14 @@ a:hover {
   font-size: 16px;
 }
 
+.repertoire {
+  font-size: 16px;
+}
+
+.repertoire strong {
+  font-size: 18px
+}
+
 @media screen and (min-width: 620px) {
   body {
     font-size: 22px;
@@ -149,6 +157,10 @@ a:hover {
 
   .singers p {
     margin-top: 0;
+  }
+
+  .repertoire strong {
+    font-size: 22px;
   }
 }
 
