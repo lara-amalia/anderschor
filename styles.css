@@ -102,6 +102,11 @@ nav {
   padding: 2rem;
 }
 
+.headline-videos h3 {
+  margin: 0 0 0.5rem;
+  line-height: 1.2;
+}
+
 .singers img {
   display: block;
   margin: 0 auto;
@@ -144,6 +149,10 @@ nav {
 
 .repertoire strong {
   font-size: 18px;
+}
+
+.repertoire li + li {
+  margin-top: 0.5rem;
 }
 
 .videos {
